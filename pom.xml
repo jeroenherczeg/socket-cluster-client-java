@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.jeroenherczeg</groupId>
+    <groupId>io.github.jeroenherczeg</groupId>
     <artifactId>socket-cluster-client-java</artifactId>
     <version>1.0</version>
     <name>Socket cluster client</name>
@@ -27,7 +27,7 @@
         <developer>
             <name>Jeroen Herczeg</name>
             <email>jeroen@herczeg.be</email>
-            <organization>com.github.jeroenherczeg</organization>
+            <organization>io.github.jeroenherczeg</organization>
             <organizationUrl>http://github.com/jeroenherczeg/</organizationUrl>
         </developer>
     </developers>
