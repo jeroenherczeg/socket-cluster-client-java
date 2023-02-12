@@ -1,4 +1,4 @@
-package io.github.sac; /**
+package com.github.jeroenherczeg; /**
  * Created by sachin on 16/11/16.
  */
 

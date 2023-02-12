@@ -1,0 +1,38 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.jeroenherczeg</groupId>
+    <artifactId>socket-cluster-client-java</artifactId>
+    <version>1.0</version>
+    <name>Socket cluster client</name>
+    <description>A socket cluster client for java</description>
+    <url>https://github.com/jeroenherczeg/socket-cluster-client-java</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git://github.com/jeroenherczeg/socket-cluster-client-java.git</connection>
+        <developerConnection>scm:git:ssh://github.com:jeroenherczeg/socket-cluster-client-java.git</developerConnection>
+        <url>http://github.com/jeroenherczeg/socket-cluster-client-java</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Jeroen Herczeg</name>
+            <email>jeroen@herczeg.be</email>
+            <organization>com.github.jeroenherczeg</organization>
+            <organizationUrl>http://github.com/jeroenherczeg/</organizationUrl>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>

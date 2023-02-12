@@ -1,4 +1,4 @@
-package io.github.sac;
+package com.github.jeroenherczeg;
 
 import com.neovisionaries.ws.client.OpeningHandshakeException;
 import com.neovisionaries.ws.client.StatusLine;

@@ -1,4 +1,4 @@
-package io.github.sac;
+package com.github.jeroenherczeg;
 /**
  * Created by sachin on 15/11/16.
  */
@@ -33,16 +33,16 @@ public class EventThread extends Thread {
     }
 
     /**
-     * check if the current thread is io.github.sac.EventThread.
+     * check if the current thread is com.github.jeroenherczeg.EventThread.
      *
-     * @return true if the current thread is io.github.sac.EventThread.
+     * @return true if the current thread is com.github.jeroenherczeg.EventThread.
      */
     public static boolean isCurrent() {
         return currentThread() == thread;
     }
 
     /**
-     * Executes a task in io.github.sac.EventThread.
+     * Executes a task in com.github.jeroenherczeg.EventThread.
      */
     public static void exec(Runnable task) {
         if (isCurrent()) {
@@ -53,7 +53,7 @@ public class EventThread extends Thread {
     }
 
     /**
-     * Executes a task on the next loop in io.github.sac.EventThread.
+     * Executes a task on the next loop in com.github.jeroenherczeg.EventThread.
      */
     public static void nextTick(final Runnable task) {
         ExecutorService executor;

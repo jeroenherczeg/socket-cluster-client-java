@@ -1,4 +1,4 @@
-package io.github.sac;
+package com.github.jeroenherczeg;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

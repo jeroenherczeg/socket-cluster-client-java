@@ -1,4 +1,4 @@
-Java and Android Socketcluster Client
+Socket Cluster Client Java
 =====================================
 
 Overview
@@ -20,7 +20,7 @@ For java
 
 ```Gradle
 dependencies {
-    compile 'io.github.sac:SocketclusterClientJava:2.0.0'
+    compile 'com.github.jeroenherczeg:SocketclusterClientJava:2.0.0'
 }
 ```
 for sample java examples visit [Java Demo](https://github.com/sacOO7/socketcluster-client-testing/tree/master/src/main/java)
@@ -28,7 +28,7 @@ for sample java examples visit [Java Demo](https://github.com/sacOO7/socketclust
 For android 
 
 ```Gradle
-compile ('io.github.sac:SocketclusterClientJava:2.0.0'){
+compile ('com.github.jeroenherczeg:SocketclusterClientJava:2.0.0'){
         exclude group :'org.json', module: 'json'
 }
 ```
